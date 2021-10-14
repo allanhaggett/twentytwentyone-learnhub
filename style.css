@@ -22,7 +22,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 	--global--font-size-xxl: 3rem;
 	--global--font-size-xxxl: 3.5rem;
 
-	/* --global--spacing-vertical: 0; */
+	/* --global--spacing-vertical: 0;  this affects SO MANY THINGS */
 }
 .site-header,
 .site-main,
