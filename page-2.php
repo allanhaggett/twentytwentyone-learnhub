@@ -59,40 +59,10 @@ $args = array(
 <div class="alignfull" style="background-color: #FFF; padding: 4em 2em; text-align: center">
 <h2>Learning is brought to you by&hellip;</h2>
 <div class="alignfull" style="padding: 2em 0;">
-<?php
-$terms = get_terms( array(
-    'taxonomy' => 'learning_partner',
-    'hide_empty' => true,
-    'orderby'    => 'count',
-    'number' => 5,
-    'order'   => 'DESC',
-    'exclude' => 408
-) );
-?>
-<?php foreach( $terms as $category ) : ?>
-    <?php
-    $partnerlogo = '';
-    $term_vals = get_term_meta($category->term_id);
-    foreach($term_vals as $key=>$val) {
-        if($key == 'category-image-id') {
-            $partnerlogo = $val[0];
-        }  
-    } 
-    ?>
-    <?php if(!empty($partnerlogo)): ?>
-    <?php $image_attributes = wp_get_attachment_image_src( $attachment_id = $partnerlogo, $size = 'small' ) ?>
-    <?php if ( $image_attributes ) : ?>
-    <!-- <a class="logolink" href="<?= esc_url( get_category_link( $category->term_id ) ) ?>"> -->
-        <img alt="Partner Logo"
-            height="25" 
-            src="<?php echo $image_attributes[0]; ?>" 
-            width="100"
-			style="display: inline-block; filter: grayscale(1); margin: 0 1em;">
-    <!-- </a> -->
-    <?php endif; ?>
-    <?php endif; ?>
-<?php endforeach ?>
-
+<img src="https://lc.virtuallearn.ca/portal/wp-content/uploads/sites/6/2021/10/partner-logos-small-greyscale.jpg" 
+    alt="Learning Partner Logos"
+    height="86"
+    width="421">
 </div>
 <div>
     <a class="wp-block-button__link has-background" 
