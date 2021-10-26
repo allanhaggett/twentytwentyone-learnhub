@@ -14,11 +14,11 @@ get_header();
 <div class="wp-block-cover alignfull has-white-background-color has-background-dim" style="min-height:260px">
 <div class="wp-block-cover__inner-container">
 <p class="has-text-align-center mb-1">Search the catalogue, or 
-    <a href="https://lc.virtuallearn.ca/portal/course/" data-type="page">see a list of all courses</a>.
+    <a href="https://learningcentre.gww.gov.bc.ca/learninghub/course/" data-type="page">see a list of all courses</a>.
 </p>
 <form role="search" 
         method="get" 
-        action="https://lc.virtuallearn.ca/portal/" 
+        action="https://learningcentre.gww.gov.bc.ca/learninghub/" 
         class="wp-block-search__button-inside wp-block-search__icon-button wp-block-search">
 <div class="wp-block-search__inside-wrapper">
 
@@ -35,9 +35,9 @@ get_header();
 </div>
 </form>
 <p class="has-text-align-center mt-1">
-    <a href="https://lc.virtuallearn.ca/portal/foundational-courses/">Foundational Courses</a> | 
-    <a href="https://lc.virtuallearn.ca/portal/supervisors-and-managers/">Supervisors and Managers</a> | 
-    <a href="https://lc.virtuallearn.ca/portal/leadership/">Leadership</a>
+    <a href="https://learningcentre.gww.gov.bc.ca/learninghub/foundational-courses/">Foundational Courses</a> | 
+    <a href="https://learningcentre.gww.gov.bc.ca/learninghub/supervisors-and-managers/">Supervisors and Managers</a> | 
+    <a href="https://learningcentre.gww.gov.bc.ca/learninghub/leadership/">Leadership</a>
 </p>
 </div>
 </div>
@@ -59,7 +59,7 @@ $args = array(
 <div class="alignfull" style="background-color: #FFF; padding: 4em 2em; text-align: center">
 <h2>Learning is brought to you by&hellip;</h2>
 <div class="alignfull" style="padding: 2em 0;">
-<img src="https://lc.virtuallearn.ca/portal/wp-content/uploads/sites/6/2021/10/partner-logos-small-greyscale.jpg" 
+<img src="http://learningcentre.gww.gov.bc.ca/learninghub/wp-content/uploads/sites/17/2021/10/partner-logos-small-greyscale.jpg" 
     alt="Learning Partner Logos"
     height="86"
     width="421">
@@ -67,7 +67,7 @@ $args = array(
 <div>
     <a class="wp-block-button__link has-background" 
         style="background-color: #145693; border-radius: 3px; " 
-        href="/portal/corporate-learning-partners/">
+        href="http://learningcentre.gww.gov.bc.ca/learninghub/corporate-learning-partners/">
             Meet the Partners
         </a>
 </div>

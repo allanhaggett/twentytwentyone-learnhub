@@ -22,7 +22,7 @@ $blog_info    = get_bloginfo( 'name' );
 <div class="wiw-logo">
 	<img alt="Where Ideas Work logo" 
 		height="48" 
-		src="https://lc.virtuallearn.ca/portal/wp-content/uploads/sites/6/2021/07/where-ideas-work.png" 
+		src="https://learningcentre.gww.gov.bc.ca/learninghub/wp-content/uploads/sites/6/2021/07/where-ideas-work.png" 
 		width="220">
 </div>	
 	
